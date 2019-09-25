@@ -1,166 +1,164 @@
 {
   "documents":
-[
-  {
-    "id": 4,
-    "name": "Subfolder Documenti",
-    "creationDate": "20/05/2019",
-    "documents": [
-      {
-        "id": 41,
-        "name": "Documento sub 1.doc",
-        "phase": 1,
-        "creationDate": "20/05/2019",
-        "typology": "shared"
+  [
+    {
+      "id": 4,
+      "name": "Altri documenti",
+      "creationDate": "20/05/2019",
+      "documents": [
+        {
+          "id": 41,
+          "name": "Altro documento 1.doc",
+          "phase": 1,
+          "creationDate": "20/05/2019",
+          "typology": "shared"
+        },
+        {
+          "id": 43,
+          "name": "Sotto documenti",
+          "parentId": 4,
+          "creationDate": "20/05/2019",
+          "documents": [
+            {
+              "id": 431,
+              "name": "Sotto documento 1.doc",
+              "phase": 1,
+              "creationDate": "20/05/2019",
+              "typology": "shared"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Documento PUB 1.docx",
+      "phase": 0,
+      "creationDate": "22/05/2019",
+      "typology": "shared",
+      "caseCode": {
+        "code": 89898,
+        "name": "Pratica-03",
+        "type": "contract"
       },
-      {
-        "id": 42,
-        "name": "Documento sub 2.doc",
-        "phase": 0,
-        "creationDate": "20/05/2019",
-        "typology": "internal"
+      "creationUser": {
+        "name": "Donadoni Marco"
       },
-      {
-        "id": 43,
-        "name": "Subfolder Subfolder Documenti",
-        "parentId": 4,
-        "creationDate": "20/05/2019",
-        "documents": [
-          {
-            "id": 431,
-            "name": "Documento sub sub 1.doc",
-            "phase": 1,
-            "creationDate": "20/05/2019",
-            "typology": "shared"
-          },
-          {
-            "id": 432,
-            "name": "Documento sub sub 2.doc",
-            "phase": 0,
-            "creationDate": "20/05/2019",
-            "typology": "internal"
-          },
-          {
-            "id": 433,
-            "name": "Subfolder Subfolder Subfolder Documenti",
-            "phase": 0,
-            "parentId": 43,
-            "creationDate": "20/05/2019",
-            "documents": [
-              {
-                "id": 4331,
-                "name": "Documento sub sub sub 1.doc",
-                "phase": 0,
-                "creationDate": "20/05/2019",
-                "typology": "internal"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "name": "Documento pubblico 1.docx",
-    "phase": 0,
-    "creationDate": "22/05/2019",
-    "typology": "shared",
-    "caseCode": {
-      "code": 89898,
-      "name": "Pratica-03",
-      "type": "contract"
+      "category": "Categoria 3",
+      "type": "Tipo 3",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "versions": [
+        {
+          "id": "1",
+          "editDate": "22-05-2019",
+          "editUser": "Donadoni Marco"
+        }
+      ]
     },
-    "creationUser": {
-      "name": "Donadoni Marco"
-    },
-    "category": "Categoria 3",
-    "type": "Tipo 3",
-    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    "versions": [
-      {
-        "id": "1",
-        "editDate": "22-05-2019",
-        "editUser": "Donadoni Marco"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Documento pubblico 2.xlsx",
-    "phase": 1,
-    "creationDate": "21/05/2019",
-    "typology": "shared",
-    "caseCode": {
-      "code": 55522,
-      "name": "Pratica-02",
-      "type": "opinion"
-    },
-    "creationUser": {
-      "name": "Donadoni Marco"
-    },
-    "category": "Categoria 2",
-    "type": "Tipo 2",
-    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    "tags ": [
-      "Tag 4",
-      "Tag 1",
-      "Tag 2"
-    ],
-    "versions": [
-      {
-        "id": "1",
-        "editDate": "20-05-2019",
-        "editUser": "Donadoni Marco"
+    {
+      "id": 2,
+      "name": "Documento PUB 2.xlsx",
+      "phase": 1,
+      "creationDate": "21/05/2019",
+      "typology": "shared",
+      "caseCode": {
+        "code": 55522,
+        "name": "Pratica-02",
+        "type": "opinion"
       },
-      {
-        "id": "2",
-        "editDate": "21-05-2019",
-        "editUser": "Donadoni Marco"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Documento pubblico 3.doc",
-    "phase": 2,
-    "creationDate": "20/05/2019",
-    "typology": "shared",
-    "caseCode": {
-      "code": 11598,
-      "name": "Pratica-01",
-      "type": "case"
-    },
-    "creationUser": {
-      "name": "Donadoni Marco"
-    },
-    "category": "Categoria 1",
-    "type": "Tipo 1",
-    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-    "tags ": [
-      "Tag 1",
-      "Tag 2",
-      "Tag 3"
-    ],
-    "versions": [
-      {
-        "id": "1",
-        "editDate": "20-05-2019",
-        "editUser": "Donadoni Marco"
+      "creationUser": {
+        "name": "Donadoni Marco"
       },
-      {
-        "id": "2",
-        "editDate": "21-05-2019",
-        "editUser": "Donadoni Marco"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Documento interno 1.pdf",
-    "phase": 0,
-    "creationDate": "23/05/2019",
-    "typology": "internal"
-  }
-]
+      "category": "Categoria 2",
+      "type": "Tipo 2",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "tags ": [
+        "Tag 4",
+        "Tag 1",
+        "Tag 2"
+      ],
+      "versions": [
+        {
+          "id": "1",
+          "editDate": "20-05-2019",
+          "editUser": "Donadoni Marco"
+        },
+        {
+          "id": "2",
+          "editDate": "21-05-2019",
+          "editUser": "Donadoni Marco"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Documento PUB 3.doc",
+      "phase": 2,
+      "creationDate": "20/05/2019",
+      "typology": "shared",
+      "caseCode": {
+        "code": 11598,
+        "name": "Pratica-01",
+        "type": "case"
+      },
+      "creationUser": {
+        "name": "Donadoni Marco"
+      },
+      "category": "Categoria 1",
+      "type": "Tipo 1",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "tags ": [
+        "Tag 1",
+        "Tag 2",
+        "Tag 3"
+      ],
+      "versions": [
+        {
+          "id": "1",
+          "editDate": "20-05-2019",
+          "editUser": "Donadoni Marco"
+        },
+        {
+          "id": "2",
+          "editDate": "21-05-2019",
+          "editUser": "Donadoni Marco"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Documento INT 1.pdf",
+      "phase": 0,
+      "creationDate": "23/05/2019",
+      "typology": "internal",
+      "caseCode": {
+        "code": 11598,
+        "name": "Pratica-01",
+        "type": "case"
+      },
+      "creationUser": {
+        "name": "Luigino Perrano"
+      },
+      "category": "Categoria 3",
+      "type": "Tipo 3",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "tags ": [
+        "Tag 8",
+        "Tag 3",
+        "Tag 6"
+      ],
+      "versions": [
+        {
+          "id": "1",
+          "editDate": "25-05-2019",
+          "editUser": "Donadoni Marco"
+        },
+        {
+          "id": "2",
+          "editDate": "26-05-2019",
+          "editUser": "Donadoni Marco"
+        }
+      ]
+    }
+  ]
 }
