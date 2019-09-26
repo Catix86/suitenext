@@ -164,47 +164,47 @@
   "categories":
   [
     {
-      id: 1,
-      name: 'Categoria 1'
+      "id": 1,
+      "name": 'Categoria 1'
     },
     {
-      id: 2,
-      name: 'Categoria 2'
+      "id": 2,
+      "name": 'Categoria 2'
     },
     {
-      id: 3,
-      name: 'Categoria 3'
+      "id": 3,
+      "name": 'Categoria 3'
     },
     {
-      id: 4,
-      name: 'Categoria 4'
+      "id": 4,
+      "name": 'Categoria 4'
     },
     {
-      id: 5,
-      name: 'Categoria 5'
+      "id": 5,
+      "name": 'Categoria 5'
     }
   ],
   "types":
   [
     {
-      id: 1,
-      name: 'Tipo 1'
+      "id": 1,
+      "name": 'Tipo 1'
     },
     {
-      id: 2,
-      name: 'Tipo 2'
+      "id": 2,
+      "name": 'Tipo 2'
     },
     {
-      id: 3,
-      name: 'Tipo 3'
+      "id": 3,
+      "name": 'Tipo 3'
     },
     {
-      id: 4,
-      name: 'Tipo 4'
+      "id": 4,
+      "name": 'Tipo 4'
     },
     {
-      id: 5,
-      name: 'Tipo 5'
+      "id": 5,
+      "name": 'Tipo 5'
     }
   ]
 }
