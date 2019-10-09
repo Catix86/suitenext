@@ -11,7 +11,25 @@
           "name": "Altro documento 1.doc",
           "phase": 1,
           "creationDate": "20/05/2019",
-          "typology": "shared"
+          "typology": "shared",
+          "caseCode": {
+        "code": 97978,
+        "name": "Pratica-05",
+        "type": "contract"
+      },
+      "creationUser": {
+        "name": "Donadoni Marco"
+      },
+      "category": "Categoria 3",
+      "type": "Tipo 3",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "versions": [
+        {
+          "id": "1",
+          "editDate": "22-05-2019",
+          "editUser": "Donadoni Marco"
+        }
+      ]
         },
         {
           "id": 43,
@@ -24,7 +42,25 @@
               "name": "Sotto documento 1.doc",
               "phase": 1,
               "creationDate": "20/05/2019",
-              "typology": "shared"
+              "typology": "shared",
+              "caseCode": {
+              "code": 22214,
+              "name": "Pratica-08",
+              "type": "opinion"
+            },
+            "creationUser": {
+              "name": "Donadoni Marco"
+            },
+            "category": "Categoria 3",
+            "type": "Tipo 3",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+            "versions": [
+              {
+                "id": "1",
+                "editDate": "22-05-2019",
+                "editUser": "Donadoni Marco"
+              }
+            ]
             }
           ]
         }
